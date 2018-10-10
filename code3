@@ -1,0 +1,13 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+int a,b,result;
+cout<<"simple multiplication";
+cout<<"enter two integers:";
+cin>>a>>b;
+result=a*b;
+cout<<"result:"<<a<<"*"<<b<<"="<<result;
+getch();
+return 0;
+}
